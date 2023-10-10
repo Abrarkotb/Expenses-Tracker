@@ -11,7 +11,7 @@ import { GlobalProvider } from './Context/GlobalState';
   return (
     <GlobalProvider>
       <Header/>
-        <div>
+        <div className='container'>
       <Balance/>
       <IncomeExpenses/>
       <TransactionList/>
